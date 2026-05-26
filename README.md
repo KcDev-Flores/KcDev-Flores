@@ -1,154 +1,50 @@
-# GitHub Cybersecurity Profile README
-
-````md
 <div align="center">
 
-# 🌌 Kevin
+  <!-- Tipografía animada con vibra serena -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Protegiendo+el+entorno+digital.;Estudiante+de+Ingeniería+en+Sistemas.;Backend+%26+Ciberseguridad." alt="Typing SVG" />
+  
+  <br><br>
 
-```bash
-> initializing profile...
-> secure connection established
-````
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=2000&color=5EEAD4&center=true&vCenter=true&width=435&lines=Cybersecurity+Enthusiast;Backend+Developer;Networking+%26+Systems;Always+Learning" alt="Typing SVG" />
-
+  <!-- Dragón de Kali Linux -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg" width="120" alt="Kali Dragon">
+  
 </div>
 
 ---
 
-## 🧠 About Me
+### 🌌 Sobre Mí
 
-```bash
-whoami
-```
+Soy un estudiante de Ingeniería en Sistemas Computacionales navegando por el mundo del desarrollo y la ciberseguridad. Disfruto construir arquitecturas sólidas en el backend y explorar las profundidades de las redes para entender cómo protegerlas. Mi enfoque combina la lógica del código con la mentalidad analítica del *ethical hacking*, manteniendo siempre un ambiente de aprendizaje sereno, enfocado y continuo.
 
-Backend developer and cybersecurity enthusiast focused on building secure systems, APIs, and scalable backend architectures.
+### 🛠️ Tecnologías y Herramientas
 
-I enjoy networking, traffic analysis, Linux environments, and low-level technical problem solving.
+#### 🛡️ Ciberseguridad & Redes
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-2C3E50?style=for-the-badge&logo=kali-linux&logoColor=58A6FF)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logo=nmap&logoColor=58A6FF)
+![cURL](https://img.shields.io/badge/curl-073551?style=for-the-badge&logo=curl&logoColor=white)
 
-```bash
-focus --current
+#### ⚙️ Backend & Sistemas
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-0D1117?style=for-the-badge&logo=express&logoColor=58A6FF)
 
-[+] API Security
-[+] Networking
-[+] Traffic Analysis
-[+] Secure Backend Architecture
-[+] System Internals
-```
+#### 🖥️ Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+#### 🗄️ Bases de Datos
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
 ---
 
-## ⚙️ Technologies & Tools
-
+### 📊 Panorama de Actividad
 <div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=cpp,js,ts,html,css" />
-
-### Backend & Frontend
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,react" />
-
-### Databases
-
-<img src="https://skillicons.dev/icons?i=mysql,postgres" />
-
-<img src="https://img.shields.io/badge/SQL_Server-0D1117?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
-
-### Cybersecurity & Networking
-
-<img src="https://img.shields.io/badge/Kali_Linux-0D1117?style=for-the-badge&logo=kalilinux&logoColor=white" />
-<img src="https://img.shields.io/badge/Wireshark-0D1117?style=for-the-badge&logo=wireshark&logoColor=white" />
-<img src="https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-<img src="https://img.shields.io/badge/cURL-0D1117?style=for-the-badge&logo=curl&logoColor=white" />
-
+  <!-- Reemplaza "TU_USUARIO" con tu nombre de usuario real de GitHub -->
+  <img src="https://github-readme-stats.vercel.app/api?username=KcDev-Flores&show_icons=true&theme=nord&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=8957E5&text_color=C9D1D9" alt="GitHub Stats" />
 </div>
-
----
-
-## 🌌 Environment
-
-```bash
-OS        :: Kali Linux
-Editor    :: VS Code
-Terminal  :: Bash
-Focus     :: Security & Backend
-Mindset   :: Calm and focused
-```
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=5EEAD4&icon_color=5EEAD4&text_color=C9D1D9" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=5EEAD4&text_color=C9D1D9" />
-
-</div>
-
----
-
-## 🌐 Network Status
-
-```bash
-> listening...
-
-STATUS  :: ONLINE
-SECURE  :: TRUE
-MODE    :: LEARNING
-```
-
----
-
-## ☕ Serenity
-
-<div align="center">
-
-```txt
-Late night coding.
-Low terminal brightness.
-Rain outside.
-Packets flowing quietly.
-```
-
-</div>
-
----
-
-<div align="center">
-
-"Security is a continuous process."
-
-</div>
-```
-
----
-
-# Banner Prompt 
-
-Use this prompt to generate a banner with an AI image generator:
-
-```txt
-A serene cybersecurity workspace at night, dark blue and teal atmosphere, calm hacker aesthetic, multiple monitors with subtle terminal windows, soft neon lights, minimalist setup, rain outside the window, realistic style, cinematic lighting, peaceful and focused environment, no aggressive hacker vibes, elegant cyberpunk ambience, ultra detailed, relaxing mood
-```
-
-Recommended banner size:
-
-```txt
-1584 x 396
-```
-
----
-
-# Important
-
-Replace this:
-
-```txt
-KcDev-Flores
-```
-
-with your actual GitHub username in the stats URLs.
