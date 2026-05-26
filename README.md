@@ -1,24 +1,14 @@
 <div align="center">
 
-  <a href="https://github.com/KcDev-Flores">
-    <img src="https://www.kali.org/blog/kali-linux-2020-4-release/images/boot-kali.gif" alt="Kali Linux Boot Animation" width="300" height="300" style="border-radius: 50%; border: 4px solid #58A6FF; box-shadow: 0 4px 8px rgba(0,0,0,0.2); object-fit: cover;">
-  </a>
+  <img src="https://img.shields.io/badge/-Kali_Linux-000000?style=for-the-badge&logo=kali-linux&logoColor=white&labelColor=000000&color=58A6FF&border=true&border_radius=50%" alt="Kali Dragon Circular Badge" width="200" style="margin-bottom: 20px;" />
 
-  <br><br>
-
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Protegiendo+el+entorno+digital.;Estudiante+de+Ingeniería+en+Sistemas.;Backend+%26+Ciberseguridad." alt="Typing SVG" />
-  
-  <br>
-  
 </div>
 
 ---
 
-### 🌌 Sobre Mí
-
-Soy un estudiante de Ingeniería en Sistemas Computacionales navegando por el mundo del desarrollo y la ciberseguridad. Disfruto construir arquitecturas sólidas en el backend y explorar las profundidades de las redes para entender cómo protegerlas. Mi enfoque combina la lógica del código con la mentalidad analítica del *ethical hacking*, manteniendo siempre un ambiente de aprendizaje sereno, enfocado y continuo.
-
 ### 🛠️ Tecnologías y Herramientas
+
+He seleccionado una paleta de colores que combina la profesionalidad de la ciberseguridad con un tono sereno y analítico.
 
 #### 🛡️ Ciberseguridad & Redes
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-2C3E50?style=for-the-badge&logo=kali-linux&logoColor=58A6FF)
