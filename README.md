@@ -44,7 +44,9 @@ Soy un estudiante de Ingeniería en Sistemas Computacionales navegando por el mu
 ---
 
 ### 📊 Panorama de Actividad
+
 <div align="center">
-  <!-- Reemplaza "TU_USUARIO" con tu nombre de usuario real de GitHub -->
-  <img src="https://github-readme-stats.vercel.app/api?username=KcDev-Flores&show_icons=true&theme=nord&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=8957E5&text_color=C9D1D9" alt="GitHub Stats" />
+  <a href="https://github.com/KcDev-Flores">
+    <img src="https://github-readme-stats.vercel.app/api?username=KcDev-Flores&show_icons=true&theme=nord&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=8957E5&text_color=C9D1D9&cache_seconds=1" alt="GitHub Stats de KcDev-Flores" />
+  </a>
 </div>
