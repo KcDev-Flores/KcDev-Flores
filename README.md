@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="kaliEffect.mp4" alt="Efecto_Dragon_Kali_Linux" width="400" />
+  <video src="kaliEffect.mp4" width="400" autoplay loop muted playsinline></video>
 
   <br><br>
 
