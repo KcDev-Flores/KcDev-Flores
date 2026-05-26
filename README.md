@@ -1,6 +1,14 @@
-<p align="center">
-  <img src="https://image.api.playstation.com/vulcan/img/rnd/202111/1715/kali-linux-serene-dragon-clean.png" width="100%" alt="Kali Linux Serene Dragon Banner" />
-</p>
+<div align="center">
+
+  <img src="kali-dragon.jpg" alt="Kali Serene Dragon Logo" width="400" />
+
+  <br><br>
+
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Protegiendo+el+entorno+digital.;Estudiante+de+Ingeniería+en+Sistemas.;Backend+%26+Ciberseguridad." alt="Typing SVG" />
+  
+  <br>
+  
+</div>
 
 # Perfil de Desarrollo y Ciberseguridad
 
