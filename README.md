@@ -1,22 +1,10 @@
 <div align="center">
 
-  <a href="https://github.com/KcDev-Flores">
-    <img src="kali-neon.gif" alt="Kali Linux Neon Dragon" width="250" height="250" style="border-radius: 50%; border: 4px solid #58A6FF; object-fit: cover; background-color: #000000; box-shadow: 0 0 20px #58A6FF;" />
-  </a>
+  <img src="https://img.shields.io/badge/-Kali_Linux-000000?style=for-the-badge&logo=kali-linux&logoColor=white&labelColor=000000&color=58A6FF&border=true&border_radius=50%" alt="Kali Dragon Circular Badge" width="200" style="margin-bottom: 20px;" />
 
-  <br><br>
-
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Protegiendo+el+entorno+digital.;Estudiante+de+Ingeniería+en+Sistemas.;Backend+%26+Ciberseguridad." alt="Typing SVG" />
-  
-  <br>
-  
 </div>
 
 ---
-
-### 🌌 Sobre Mí
-
-Soy un estudiante de Ingeniería en Sistemas Computacionales navegando por el mundo del desarrollo y la ciberseguridad. Disfruto construir arquitecturas sólidas en el backend y explorar las profundidades de las redes para entender cómo protegerlas. Mi enfoque combina la lógica del código con la mentalidad analítica del *ethical hacking*, manteniendo siempre un ambiente de aprendizaje sereno, enfocado y continuo.
 
 ### 🛠️ Tecnologías y Herramientas
 
@@ -52,7 +40,6 @@ Soy un estudiante de Ingeniería en Sistemas Computacionales navegando por el mu
     <img src="https://github-readme-stats.vercel.app/api?username=KcDev-Flores&show_icons=true&theme=nord&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=8957E5&text_color=C9D1D9&cache_seconds=1" alt="GitHub Stats de KcDev-Flores" />
   </a>
 </div>
-
 <!--<div align="center">
 
   <img src="https://img.shields.io/badge/-Kali_Linux-000000?style=for-the-badge&logo=kali-linux&logoColor=white&labelColor=000000&color=58A6FF&border=true&border_radius=50%" alt="Kali Dragon Circular Badge" width="200" style="margin-bottom: 20px;" />
