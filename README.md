@@ -1,12 +1,14 @@
 <div align="center">
 
-  <!-- Tipografía animada con vibra serena -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Protegiendo+el+entorno+digital.;Estudiante+de+Ingeniería+en+Sistemas.;Backend+%26+Ciberseguridad." alt="Typing SVG" />
-  
+  <a href="https://github.com/KcDev-Flores">
+    <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eGZ3NDMwcTVjeWMydTNmNmtiaDVhNXprdnl2aTQ0Nm1wZjVxMDl5aiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/77rvjVcaJr1BgKSXtR/giphy.gif" alt="Kali Dragon Motion" width="100%">
+  </a>
+
   <br><br>
 
-  <!-- Dragón de Kali Linux -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg" width="120" alt="Kali Dragon">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Protegiendo+el+entorno+digital.;Estudiante+de+Ingeniería+en+Sistemas.;Backend+%26+Ciberseguridad." alt="Typing SVG" />
+  
+  <br>
   
 </div>
 
