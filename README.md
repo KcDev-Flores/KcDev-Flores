@@ -1,7 +1,7 @@
 <div align="center">
 
-  <video src="kaliEffect.mp4" width="400" autoplay loop muted playsinline></video>
-
+  <img src="https://tse4.mm.bing.net/th/id/OIP.BZQdhgs0fYGR1GHOL8RCiwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Kali Dragon Logo" width="200" />
+  
   <br><br>
 
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Protegiendo+el+entorno+digital.;Estudiante+de+Ingeniería+en+Sistemas.;Backend+%26+Ciberseguridad." alt="Typing SVG" />
@@ -26,7 +26,7 @@ He seleccionado una paleta de colores que combina la profesionalidad de la ciber
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-2C3E50?style=for-the-badge&logo=kali-linux&logoColor=58A6FF)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logo=nmap&logoColor=58A6FF)
-![cURL](https://img.shields.io/badge/curl-073551?style=for-the-badge&logo=curl&logoColor=white)
+![curl](https://img.shields.io/badge/curl-073551?style=for-the-badge&logo=curl&logoColor=white)
 
 #### ⚙️ Backend & Sistemas
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
