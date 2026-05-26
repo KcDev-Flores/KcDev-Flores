@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="kali-dragon.jpg" alt="Kali Serene Dragon Logo" width="400" />
+  <img src="kali-dragon.png" alt="Kali Serene Dragon Logo" width="400" />
 
   <br><br>
 
@@ -14,7 +14,7 @@
 
 ### 🌌 Un enfoque sereno y analítico hacia la protección digital
 
-Soy KcDev-Flores, un desarrollador con pasión por la ciberseguridad. Mi enfoque combina la lógica del desarrollo de backend con la mentalidad analítica del *ethical hacking*, manteniendo siempre un ambiente de aprendizaje sereno, enfocado y continuo.
+Soy KcDev-Flores, un desarrollador con pasión por la ciberseguridad. Mi enfoque combina la lógica del código con la mentalidad analítica del *ethical hacking*, manteniendo siempre un ambiente de aprendizaje sereno, enfocado y continuo.
 
 ---
 
@@ -26,7 +26,7 @@ He seleccionado una paleta de colores que combina la profesionalidad de la ciber
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-2C3E50?style=for-the-badge&logo=kali-linux&logoColor=58A6FF)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logo=nmap&logoColor=58A6FF)
-![curl](https://img.shields.io/badge/curl-073551?style=for-the-badge&logo=curl&logoColor=white)
+![cURL](https://img.shields.io/badge/curl-073551?style=for-the-badge&logo=curl&logoColor=white)
 
 #### ⚙️ Backend & Sistemas
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -42,12 +42,15 @@ He seleccionado una paleta de colores que combina la profesionalidad de la ciber
 
 #### 🗄️ Bases de Datos
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
 ---
 
 ### 📊 Panorama de Actividad
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=nord&hide_border=true&bg_color=ffffff&title_color=000000&icon_color=000000&text_color=000000" alt="GitHub Stats de KcDev-Flores" />
+  <a href="https://github.com/KcDev-Flores">
+    <img src="https://github-readme-stats.vercel.app/api?username=KcDev-Flores&show_icons=true&theme=nord&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=8957E5&text_color=C9D1D9&cache_seconds=1" alt="GitHub Stats de KcDev-Flores" />
+  </a>
 </div>
