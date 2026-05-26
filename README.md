@@ -1,7 +1,7 @@
 <div align="center">
 
   <a href="https://github.com/KcDev-Flores">
-    <img src="https://www.kali.org/blog/kali-linux-2020-4-release/images/boot-kali.gif" alt="Kali Linux Boot Animation" width="100%">
+    <img src="https://www.kali.org/blog/kali-linux-2020-4-release/images/boot-kali.gif" alt="Kali Linux Boot Animation" width="300" height="300" style="border-radius: 50%; border: 4px solid #58A6FF; box-shadow: 0 4px 8px rgba(0,0,0,0.2); object-fit: cover;">
   </a>
 
   <br><br>
