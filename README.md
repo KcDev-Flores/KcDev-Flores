@@ -1,7 +1,7 @@
 <div align="center">
 
   <a href="https://github.com/KcDev-Flores">
-    <img src=["https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eGZ3NDMwcTVjeWMydTNmNmtiaDVhNXprdnl2aTQ0Nm1wZjVxMDl5aiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/77rvjVcaJr1BgKSXtR/giphy.gif"](https://www.kali.org/blog/kali-linux-2020-4-release/images/boot-kali.gif) alt="Kali Dragon Motion" width="100%">
+    <img src="https://www.kali.org/blog/kali-linux-2020-4-release/images/boot-kali.gif" alt="Kali Linux Boot Animation" width="100%">
   </a>
 
   <br><br>
