@@ -23,7 +23,7 @@
 
 - 💬 Pregúntame sobre **Node.js, Express, SQL y seguridad en redes**.
 
-- 📫 Cómo contactarme: **kevin.flores.christopher.martinez@gmail.com**.
+- 📫 Cómo contactarme: **kevin.christopher.flores.martinez@gmail.com**.
 
 <br/>
 
@@ -36,7 +36,7 @@
         </div>
 </p>
 
-### Mis Tecnologías
+### Mi stack de tecnologías
 
 <p align="center">
   <!-- Backend & Lenguajes -->
