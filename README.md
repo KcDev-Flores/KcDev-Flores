@@ -9,7 +9,7 @@
 
 - 🔭 Actualmente trabajo en proyectos de **Backend y sistemas clínicos**.
 
-- 🌱 Estoy profundizando mis conocimientos en **Ciberseguridad, Ethical Hacking y desarrollo con Node.js**.
+- 🌱 Estoy profundizando mis conocimientos en **Ciberseguridad y desarrollo con Node.js**.
 
 - 🤝 Estoy abierto a colaboraciones y proyectos interesantes.
 
@@ -17,7 +17,7 @@
 
 - 💬 Pregúntame sobre **Node.js, Express, SQL y seguridad en redes**.
 
-- 📫 Cómo contactarme: **kevin.flores.martinez@gmail.com** (o tu correo de preferencia).
+- 📫 Cómo contactarme: **kevin.flores.christopher.martinez@gmail.com**.
 
 <br/>
 
