@@ -7,9 +7,9 @@
   <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
 </a>
 
-- 🔭 Actualmente trabajo en proyectos de **Backend y sistemas clínicos**.
+- 🔭 Actualmente trabajo en proyectos de **Backend**.
 
-- 🌱 Estoy profundizando mis conocimientos en **Ciberseguridad y desarrollo con Node.js**.
+- 🌱 Estoy profundizando mis conocimientos en **Ciberseguridad y desarrollo web**.
 
 - 🤝 Estoy abierto a colaboraciones y proyectos interesantes.
 
