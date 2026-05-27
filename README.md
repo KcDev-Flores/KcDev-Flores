@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, soy <a href="https://github.com/KcDev-Flores" target="blank">Kevin Flores</a></h1>
-<h3 align="center">Estudiante de Ingeniería en Sistemas Computacionales desde El Salvador 🇸🇻</h3>
+<h3 align="center">Estudiante de Ingeniería en Sistemas Computacionales</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=KcDev-Flores&label=Vistas%20del%20Perfil&color=58A6FF&style=flat" alt="KcDev-Flores" /> </p>
 
