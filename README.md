@@ -9,8 +9,7 @@
 
 - 🔭 Actualmente trabajo en proyectos de **Backend**.
 
-- 🌱 Estoy profundizando mis conocimientos en **Ciberseguridad y desarrollo
-  web**.
+- 🌱 Profundizando mis conocimientos en **Ciberseguridad y desarrollo web**.
 
 - 🤝 Estoy abierto a colaboraciones y proyectos interesantes.
 
