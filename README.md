@@ -1,4 +1,4 @@
-<h1 align="center">Hola 👋, soy <a href="https://github.com/KcDev-Flores" target="blank">Kevin Flores</a></h1>
+<h1 align="center">Hola 👋, soy Kevin Flores</h1>
 <div align="center">
   
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Protegiendo+el+entorno+digital.;Estudiante+de+Ingeniería+en+Sistemas.;Backend+%26+Ciberseguridad." alt="Typing SVG" />
@@ -39,14 +39,29 @@
 ### Mis Tecnologías
 
 <p align="center">
+  <!-- Backend & Lenguajes -->
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kali_Linux-2C3E50?style=for-the-badge&logo=kali-linux&logoColor=58A6FF"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  
+  <br>
+
+  <!-- Bases de Datos -->
   <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white"/>
+
+  <br>
+
+  <!-- Ciberseguridad & Herramientas -->
+  <img src="https://img.shields.io/badge/Kali_Linux-2C3E50?style=for-the-badge&logo=kali-linux&logoColor=58A6FF"/>
+  <img src="https://img.shields.io/badge/Nmap-4F7CAC?style=for-the-badge&logo=nmap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Wireshark-167EE6?style=for-the-badge&logo=wireshark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/cURL-073551?style=for-the-badge&logo=curl&logoColor=white"/>
 </p>
 
 ---
 
-Credit: [Kevin Flores](https://github.com/KcDev-Flores)
+Credit: [KcDev-Flores](https://github.com/KcDev-Flores)
 
 Última edición: Mayo 2026
