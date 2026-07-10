@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efecto de Logo Kali - Sin Fondo</title>
+    <style>
+        body {
+            /* Fondo oscuro para que resalte el neón azul, demostrando que el fondo original se eliminó */
+            background-color: #111; 
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            font-family: sans-serif;
+        }
+        canvas {
+            border: 2px solid #333;
+            max-width: 90vw;
+            max-height: 80vh;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+        }
+        /* Ocultamos el video original porque solo queremos ver el canvas procesado */
+        video {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Logo Kali - Fondo Eliminado en Tiempo Real</h2>
+    <p>El video original se procesa píxel por píxel para aislar únicamente el color neón del dragón.</p>
+
+    <!-- El video original cargado desde la ruta -->
+    <video id="video-origen" src="video/kaliEffect.mp4" autoplay muted playsinline loop></video>
+    
+    <!-- El canvas donde dibujaremos solo el logo sin fondo -->
+    <canvas id="canvas-procesado"></canvas>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const video = document.getElementById("video-origen");
+            const canvas = document.getElementById("canvas-procesado");
+            const ctx = canvas.getContext("2d", { willReadFrequently: true });
+
+            // Ajustar el tamaño del canvas cuando el video cargue sus metadatos
+            video.addEventListener("loadedmetadata", () => {
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+            });
+
+            const errorDiv = document.createElement('div');
+            errorDiv.style.color = 'red';
+            errorDiv.style.marginTop = '20px';
+            document.body.appendChild(errorDiv);
+
+            function procesarFrame() {
+                if (video.paused || video.ended) {
+                    requestAnimationFrame(procesarFrame);
+                    return;
+                }
+
+                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+                try {
+                    const frameData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+                    const data = frameData.data;
+
+                    for (let i = 0; i < data.length; i += 4) {
+                        const r = data[i];
+                        const g = data[i + 1];
+                        const b = data[i + 2];
+
+                        const max = Math.max(r, g, b);
+                        const min = Math.min(r, g, b);
+                        const saturacion = max - min;
+                        
+                        // Utilizamos la "saturación" del color como nuestro canal Alpha (transparencia).
+                        // El fondo blanco, gris o negro tiene una saturación cercana a 0.
+                        // El neón azul/cyan tiene una saturación altísima.
+                        // Restamos 20 para eliminar por completo el "ruido" o halo blanco,
+                        // y multiplicamos por 3 para que el neón se vea fuerte y brillante.
+                        let alpha = (saturacion - 20) * 3;
+                        
+                        if (alpha <= 0) {
+                            data[i + 3] = 0; // Totalmente transparente
+                        } else {
+                            data[i + 3] = Math.min(255, alpha); // Aplicar transparencia suave
+                            
+                            // (Opcional) Forzamos un poco el color a cyan puro para matar 
+                            // cualquier residuo de luz blanca del fondo original,
+                            // sacrificando detalles menores pero dejando un neón perfecto.
+                            data[i] = 0; // Quitamos el rojo
+                        } 
+                    }
+
+                    ctx.putImageData(frameData, 0, 0);
+                } catch (e) {
+                    errorDiv.innerText = "Error de seguridad (CORS): No se puede leer el video en protocolo file://. Solución: Cargar mediante servidor local.";
+                    console.error(e);
+                    return; // Detener bucle
+                }
+
+                requestAnimationFrame(procesarFrame);
+            }
+
+            video.addEventListener("play", () => {
+                procesarFrame();
+            });
+            
+            // Botón de fallback por si el navegador bloquea el autoplay
+            const playBtn = document.createElement('button');
+            playBtn.innerText = "Forzar Reproducción (Play)";
+            playBtn.style.marginTop = '10px';
+            playBtn.onclick = () => { video.play(); };
+            document.body.appendChild(playBtn);
+
+            // --- LÓGICA DE GRABACIÓN ---
+            const recordBtn = document.createElement('button');
+            recordBtn.innerText = "Grabar y Descargar WebM Transparente";
+            recordBtn.style.marginTop = '15px';
+            recordBtn.style.padding = '10px';
+            recordBtn.style.backgroundColor = '#4CAF50';
+            recordBtn.style.color = 'white';
+            recordBtn.style.border = 'none';
+            recordBtn.style.cursor = 'pointer';
+            document.body.appendChild(recordBtn);
+
+            let mediaRecorder;
+            let recordedChunks = [];
+
+            recordBtn.onclick = () => {
+                if (mediaRecorder && mediaRecorder.state === "recording") {
+                    return; // Ya está grabando
+                }
+                
+                recordBtn.innerText = "Grabando... espera a que termine el video";
+                recordBtn.style.backgroundColor = '#ff9800';
+                recordedChunks = [];
+                
+                // IMPORTANTE: Desactivar el bucle para que el video pueda terminar y lanzar onended
+                video.loop = false;
+
+                // Capturar el stream del canvas a 30 FPS
+                const stream = canvas.captureStream(30);
+                
+                // IMPORTANTE: codecs=vp9 es necesario para que el formato WebM soporte transparencia (canal alfa)
+                const options = { mimeType: 'video/webm; codecs=vp9' };
+                try {
+                    mediaRecorder = new MediaRecorder(stream, options);
+                } catch (e) {
+                    alert("Tu navegador no soporta grabación WebM con VP9. Intenta en Google Chrome.");
+                    return;
+                }
+
+                mediaRecorder.ondataavailable = (event) => {
+                    if (event.data.size > 0) {
+                        recordedChunks.push(event.data);
+                    }
+                };
+
+                mediaRecorder.onstop = () => {
+                    // Crear el archivo final
+                    const blob = new Blob(recordedChunks, { type: 'video/webm' });
+                    const url = URL.createObjectURL(blob);
+                    
+                    // Forzar descarga
+                    const a = document.createElement('a');
+                    a.style.display = 'none';
+                    a.href = url;
+                    a.download = 'kali_logo_transparente.webm';
+                    document.body.appendChild(a);
+                    a.click();
+                    
+                    // Limpieza
+                    window.URL.revokeObjectURL(url);
+                    recordBtn.innerText = "Grabar y Descargar WebM Transparente";
+                    recordBtn.style.backgroundColor = '#4CAF50';
+                };
+
+                // Reiniciar el video y empezar a grabar
+                video.currentTime = 0;
+                mediaRecorder.start();
+                video.play();
+                
+                // Detener la grabación cuando el video termine
+                video.onended = () => {
+                    if (mediaRecorder.state === "recording") {
+                        mediaRecorder.stop();
+                    }
+                };
+            };
+            // --- FIN LÓGICA DE GRABACIÓN ---
+
+            video.play().catch(e => {
+                errorDiv.innerText = "Autoplay bloqueado. Haz clic en 'Forzar Reproducción'.";
+            });
+        });
+    </script>
+</body>
+</html>
