@@ -10,7 +10,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=KcDev-Flores&label=Vistas%20del%20Perfil&color=58A6FF&style=flat" alt="KcDev-Flores" /> </p>
 
 <a target="_blank" align="center">
-  <img align="right" top="500" height="300" width="400" alt="Kali Effect GIF" src="kaliEffect3Gif.gif">
+  <video autoplay loop muted playsinline align="right" height="300" width="400" src="kali_logo_transparente.webm"></video>
 </a>
 
 - 🔭 Actualmente trabajo en proyectos de **Backend**.
